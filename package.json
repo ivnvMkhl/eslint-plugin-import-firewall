@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-import-firewall",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint plugin to enforce import restrictions",
   "type": "module",
   "main": "index.js",
