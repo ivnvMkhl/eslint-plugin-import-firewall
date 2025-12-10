@@ -1,0 +1,41 @@
+{
+  "name": "eslint-plugin-import-firewall",
+  "version": "1.0.0",
+  "description": "ESLint plugin to enforce import restrictions",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.js",
+      "default": "./index.js"
+    }
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "fsd",
+    "feature-sliced-design",
+    "imports"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "mocha": "10.0.0"
+  },
+  "scripts": {
+    "test": "mocha tests/**/*.test.js"
+  },
+  "files": [
+    "index.js",
+    "rules"
+  ]
+}
+
